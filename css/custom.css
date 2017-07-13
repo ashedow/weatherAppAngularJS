@@ -1,0 +1,49 @@
+* {
+	background-color: #FFFAFA;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+form {
+	display: flex;
+	flex-grow: 1;
+}
+
+.btn-group, .form-group , .btn-primary {
+	flex-grow: 1;
+	display: flex;
+}
+
+.btn , .form-control {
+  display: inline-block;
+  color: #FFFAFA;
+  background-color: #696969;
+  font-weight: 900;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  transition: 0.2s;
+  flex-grow: 1;
+}
+
+.btn:hover {
+	background-color: #808080;
+	text-shadow: -1px 1px #27496d;
+}
+
+.weather-data {
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+
+input#location::placeholder {
+    color: #DCDCDC;
+}
